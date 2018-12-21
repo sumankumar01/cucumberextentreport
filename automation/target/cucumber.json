@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5599730029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforescanario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Hpflight registration page",
+        "description": "",
+        "id": "newtourspnrcreation;hpflight-registration-page",
+        "after": [
+          {
+            "result": {
+              "duration": 101166466,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftercanario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216373840,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on rhp Flight egestration page",
+            "match": {
+              "location": "MyStepDefinition.i_am_on_rhp_Flight_egestration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 465826,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the information of User",
+            "match": {
+              "location": "MyStepDefinition.enter_the_information_of_User()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45585,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Registration should be successfull",
+            "match": {
+              "location": "MyStepDefinition.registration_should_be_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Registartion"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 542363163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforescanario(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Hpflight registration page",
+        "description": "",
+        "id": "newtourspnrcreation;hpflight-registration-page",
+        "after": [
+          {
+            "result": {
+              "duration": 79533384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftercanario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 866065,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on rhp Flight egestration page",
+            "match": {
+              "location": "MyStepDefinition.i_am_on_rhp_Flight_egestration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 424184,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the information of User",
+            "match": {
+              "location": "MyStepDefinition.enter_the_information_of_User()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23368,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Registration should be successfull",
+            "match": {
+              "location": "MyStepDefinition.registration_should_be_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Registartion"
+          }
+        ]
+      }
+    ],
+    "name": "newtoursPnrCreation",
+    "description": "",
+    "id": "newtourspnrcreation",
+    "keyword": "Feature",
+    "uri": "Hpflight_UserRegistration.feature"
+  }
+]

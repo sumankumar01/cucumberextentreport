@@ -1,0 +1,13 @@
+Feature: newtoursPnrCreation
+
+  @Registartion
+  Scenario: Hpflight registration page        [90m# Hpflight_UserRegistration.feature:4[0m
+    [32mGiven [0m[32mI am on rhp Flight egestration page[0m [90m# MyStepDefinition.i_am_on_rhp_Flight_egestration_page()[0m
+    [32mWhen [0m[32mEnter the information of User[0m        [90m# MyStepDefinition.enter_the_information_of_User()[0m
+    [32mThen [0m[32mRegistration should be successfull[0m   [90m# MyStepDefinition.registration_should_be_successfull()[0m
+
+  @Registartion
+  Scenario: Hpflight registration page        [90m# Hpflight_UserRegistration.feature:10[0m
+    [32mGiven [0m[32mI am on rhp Flight egestration page[0m [90m# MyStepDefinition.i_am_on_rhp_Flight_egestration_page()[0m
+    [32mWhen [0m[32mEnter the information of User[0m        [90m# MyStepDefinition.enter_the_information_of_User()[0m
+    [32mThen [0m[32mRegistration should be successfull[0m   [90m# MyStepDefinition.registration_should_be_successfull()[0m

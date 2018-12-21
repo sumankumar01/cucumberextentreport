@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.540992">
+    <testcase classname="newtoursPnrCreation" name="Hpflight registration page" time="5.917782">
+        <system-out>
+            <![CDATA[Given I am on rhp Flight egestration page...................................passed
+When Enter the information of User..........................................passed
+Then Registration should be successfull.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="newtoursPnrCreation" name="Hpflight registration page" time="0.62321">
+        <system-out>
+            <![CDATA[Given I am on rhp Flight egestration page...................................passed
+When Enter the information of User..........................................passed
+Then Registration should be successfull.....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

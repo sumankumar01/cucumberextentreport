@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.540992">
-    <testcase classname="newtoursPnrCreation" name="Hpflight registration page" time="5.917782">
-        <system-out>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="2.400517">
+    <testcase classname="newtoursPnrCreation" name="Hpflight registration page" time="1.627334">
+        <failure message="java.lang.AssertionError: not match&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at StepDefinitions.MyStepDefinition.registration_should_be_successfull(MyStepDefinition.java:66)&#10;&#9;at ✽.Then Registration should be successfull(features/Hpflight_UserRegistration.feature:7)&#10;">
             <![CDATA[Given I am on rhp Flight egestration page...................................passed
 When Enter the information of User..........................................passed
-Then Registration should be successfull.....................................passed
+Then Registration should be successfull.....................................failed
+
+StackTrace:
+java.lang.AssertionError: not match
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at StepDefinitions.MyStepDefinition.registration_should_be_successfull(MyStepDefinition.java:66)
+	at ✽.Then Registration should be successfull(features/Hpflight_UserRegistration.feature:7)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="newtoursPnrCreation" name="Hpflight registration page" time="0.62321">
-        <system-out>
+    <testcase classname="newtoursPnrCreation" name="Hpflight registration page" time="0.773183">
+        <failure message="java.lang.AssertionError: not match&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at StepDefinitions.MyStepDefinition.registration_should_be_successfull(MyStepDefinition.java:66)&#10;&#9;at ✽.Then Registration should be successfull(features/Hpflight_UserRegistration.feature:13)&#10;">
             <![CDATA[Given I am on rhp Flight egestration page...................................passed
 When Enter the information of User..........................................passed
-Then Registration should be successfull.....................................passed
+Then Registration should be successfull.....................................failed
+
+StackTrace:
+java.lang.AssertionError: not match
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at StepDefinitions.MyStepDefinition.registration_should_be_successfull(MyStepDefinition.java:66)
+	at ✽.Then Registration should be successfull(features/Hpflight_UserRegistration.feature:13)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

@@ -1,13 +1,25 @@
 Feature: newtoursPnrCreation
 
   @Registartion
-  Scenario: Hpflight registration page        [90m# Hpflight_UserRegistration.feature:4[0m
+  Scenario: Hpflight registration page        [90m# features/Hpflight_UserRegistration.feature:4[0m
     [32mGiven [0m[32mI am on rhp Flight egestration page[0m [90m# MyStepDefinition.i_am_on_rhp_Flight_egestration_page()[0m
     [32mWhen [0m[32mEnter the information of User[0m        [90m# MyStepDefinition.enter_the_information_of_User()[0m
-    [32mThen [0m[32mRegistration should be successfull[0m   [90m# MyStepDefinition.registration_should_be_successfull()[0m
+    [31mThen [0m[31mRegistration should be successfull[0m   [90m# MyStepDefinition.registration_should_be_successfull()[0m
+      [31mjava.lang.AssertionError: not match
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at StepDefinitions.MyStepDefinition.registration_should_be_successfull(MyStepDefinition.java:66)
+      	at ✽.Then Registration should be successfull(features/Hpflight_UserRegistration.feature:7)
+      [0m
 
   @Registartion
-  Scenario: Hpflight registration page        [90m# Hpflight_UserRegistration.feature:10[0m
+  Scenario: Hpflight registration page        [90m# features/Hpflight_UserRegistration.feature:10[0m
     [32mGiven [0m[32mI am on rhp Flight egestration page[0m [90m# MyStepDefinition.i_am_on_rhp_Flight_egestration_page()[0m
     [32mWhen [0m[32mEnter the information of User[0m        [90m# MyStepDefinition.enter_the_information_of_User()[0m
-    [32mThen [0m[32mRegistration should be successfull[0m   [90m# MyStepDefinition.registration_should_be_successfull()[0m
+    [31mThen [0m[31mRegistration should be successfull[0m   [90m# MyStepDefinition.registration_should_be_successfull()[0m
+      [31mjava.lang.AssertionError: not match
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at StepDefinitions.MyStepDefinition.registration_should_be_successfull(MyStepDefinition.java:66)
+      	at ✽.Then Registration should be successfull(features/Hpflight_UserRegistration.feature:13)
+      [0m

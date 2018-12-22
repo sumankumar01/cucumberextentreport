@@ -5,17 +5,17 @@
       {
         "name": "I am on rhp Flight egestration page",
         "aggregatedDurations": {
-          "average": 0.108619952,
-          "median": 0.108619952
+          "average": 0.069559391,
+          "median": 0.069559391
         },
         "durations": [
           {
-            "duration": 0.21637384,
-            "location": "Hpflight_UserRegistration.feature:5"
+            "duration": 0.137090043,
+            "location": "features/Hpflight_UserRegistration.feature:5"
           },
           {
-            "duration": 0.000866065,
-            "location": "Hpflight_UserRegistration.feature:11"
+            "duration": 0.00202874,
+            "location": "features/Hpflight_UserRegistration.feature:11"
           }
         ]
       }
@@ -27,39 +27,17 @@
       {
         "name": "Enter the information of User",
         "aggregatedDurations": {
-          "average": 0.000445005,
-          "median": 0.000445005
+          "average": 0.000660814,
+          "median": 0.000660814
         },
         "durations": [
           {
-            "duration": 0.000465826,
-            "location": "Hpflight_UserRegistration.feature:6"
+            "duration": 0.000543657,
+            "location": "features/Hpflight_UserRegistration.feature:6"
           },
           {
-            "duration": 0.000424184,
-            "location": "Hpflight_UserRegistration.feature:12"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "Registration should be successfull",
-    "steps": [
-      {
-        "name": "Registration should be successfull",
-        "aggregatedDurations": {
-          "average": 0.000034476,
-          "median": 0.000034476
-        },
-        "durations": [
-          {
-            "duration": 0.000045585,
-            "location": "Hpflight_UserRegistration.feature:7"
-          },
-          {
-            "duration": 0.000023368,
-            "location": "Hpflight_UserRegistration.feature:13"
+            "duration": 0.000777971,
+            "location": "features/Hpflight_UserRegistration.feature:12"
           }
         ]
       }

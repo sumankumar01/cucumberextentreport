@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Hpflight_UserRegistration.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/Hpflight_UserRegistration.feature");
 formatter.feature({
   "line": 1,
   "name": "newtoursPnrCreation",
@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5599730029,
+  "duration": 1346587717,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,29 +43,30 @@ formatter.match({
   "location": "MyStepDefinition.i_am_on_rhp_Flight_egestration_page()"
 });
 formatter.result({
-  "duration": 216373840,
+  "duration": 137090043,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefinition.enter_the_information_of_User()"
 });
 formatter.result({
-  "duration": 465826,
+  "duration": 543657,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefinition.registration_should_be_successfull()"
 });
 formatter.result({
-  "duration": 45585,
-  "status": "passed"
+  "duration": 2725689,
+  "error_message": "java.lang.AssertionError: not match\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat StepDefinitions.MyStepDefinition.registration_should_be_successfull(MyStepDefinition.java:66)\n\tat ✽.Then Registration should be successfull(features/Hpflight_UserRegistration.feature:7)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 101166466,
+  "duration": 140386505,
   "status": "passed"
 });
 formatter.before({
-  "duration": 542363163,
+  "duration": 685157136,
   "status": "passed"
 });
 formatter.scenario({
@@ -101,25 +102,26 @@ formatter.match({
   "location": "MyStepDefinition.i_am_on_rhp_Flight_egestration_page()"
 });
 formatter.result({
-  "duration": 866065,
+  "duration": 2028740,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefinition.enter_the_information_of_User()"
 });
 formatter.result({
-  "duration": 424184,
+  "duration": 777971,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefinition.registration_should_be_successfull()"
 });
 formatter.result({
-  "duration": 23368,
-  "status": "passed"
+  "duration": 311085,
+  "error_message": "java.lang.AssertionError: not match\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat StepDefinitions.MyStepDefinition.registration_should_be_successfull(MyStepDefinition.java:66)\n\tat ✽.Then Registration should be successfull(features/Hpflight_UserRegistration.feature:13)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 79533384,
+  "duration": 84908233,
   "status": "passed"
 });
 });

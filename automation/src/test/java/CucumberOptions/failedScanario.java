@@ -1,4 +1,4 @@
-package CucumberOptions;	
+package CucumberOptions;
 
 import java.io.File;
 
@@ -11,8 +11,6 @@ import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import managers.FileReaderManager;
-
-//feature
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
@@ -20,18 +18,21 @@ import managers.FileReaderManager;
 		        "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
 		    "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
 		        "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml",
-		"rerun:target/rerun.txt"
 		       },
 			
 		
-		 features={"classpath:features"},
+		 features= {"@target/rerun.txt"},
 		glue={"StepDefinitions"}
 		
 		)
-public class TestRunner {
-	
-		
 
+
+
+public class failedScanario {
+	
+	
+	
+	
 	@BeforeClass
 	public static void startDebugCukesTest() {
 	    System.out.println(">> Starting run all cucumber test suite");
@@ -41,16 +42,15 @@ public class TestRunner {
 	// extentProperties.setProjectName("MyProject");
 	 //extentProperties.setReportPath("output/myreport.html");
 	}
-	
+
 	@AfterClass
 	public static void writeExtentReport() {
 		Reporter.loadXMLConfig(new File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
-	
+
 		//Reporter.loadXMLConfig("sysroot/home/suman/automation/cucmberautomation/extent-config.xml");
 		 
 	    System.out.println(">> Finished run all cucumber test suite");
 	   //ExtentManager.closeReporter();
 	}
-
 
 }

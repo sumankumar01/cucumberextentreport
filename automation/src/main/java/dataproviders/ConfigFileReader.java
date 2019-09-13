@@ -11,7 +11,7 @@ import enums.EnvironmentType;
 
 public class ConfigFileReader {	
 	private Properties properties;
-	private final String propertyFilePath= "/sysroot/home/suman/automation/cucmberautomation/Configuration.properties";
+	private final String propertyFilePath= "D://GuruJi//cucumberextentreport//Configuration.properties";
 
 	public ConfigFileReader(){
 		BufferedReader reader;
